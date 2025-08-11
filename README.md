@@ -30,6 +30,12 @@ An MCP server for spawning isolated Qwen sub-agents with secure project isolatio
    export KOMMAND_VENV="$HOME/base/venvs/kommand/bin/activate"
    ```
 
+## Notes
+
+Currently this project has only been tested with [qwen-code](https://github.com/QwenLM/qwen-code) (a fork of gemini-cli). However it can easily be extended to work with any CLI agent that supports non-interactive task-passing via stdin. Explicit support for other CLI agents is planned in a later release.
+
+A more advanced organization system for handling a large number of specialist agents is also in the plans.
+
 ## Configuration
 
 Create agent directories under `$KOMMAND_BASE_DIR/agents/` with:
