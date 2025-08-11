@@ -58,10 +58,10 @@ Example `specialization.json`:
 
 ```json
 "mcpServers": {
-  "sub-agent": {
-    "command": "/home/dex/base/venvs/c2/bin/python",
+  "mcp-kommander": {
+    "command": "/path/to/venvs/kommander-venv/bin/activate",
     "args": [
-      "/home/dex/base/cautiontiger/tools/mcp_sub_agent2.py"
+      "/path/to/mcp_kommander.py"
     ],
     "env": {
       "KOMMAND_BASE_DIR": "/path/to/base/dir",
