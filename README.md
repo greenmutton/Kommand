@@ -95,6 +95,10 @@ Each agent has:
 4. Add tests if applicable
 5. Submit a pull request
 
+## Contributors
+
+GLM-4.5, K2, @greenmutton
+
 ## License
 
 MIT License - see LICENSE file for details.
